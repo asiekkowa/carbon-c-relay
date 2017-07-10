@@ -6,7 +6,7 @@ RUN mkdir -p /opt/carbon-c-relay-build
 
 RUN mkdir /etc/carbon-c-relay
 
-COPY ../../. /opt/carbon-c-relay-build
+COPY . /opt/carbon-c-relay-build
 
 RUN \
   apk --no-cache update && \
